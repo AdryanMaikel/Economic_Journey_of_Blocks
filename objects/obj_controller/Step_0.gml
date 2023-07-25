@@ -1,14 +1,13 @@
 /// @description
 // 
-if not instance_exists(obj_player) and not dead {
-	dead = true;
+if not instance_exists(obj_player) and not player_is_dead {
+	player_is_dead = true;
 	alarm[0] = game_get_speed(gamespeed_fps);
-	//show_debug_message(alarm[0])
+	//show_debug_message(alarm[0]);
 }
-if instance_exists(obj_player) and dead {
-	dead = false;
+if instance_exists(obj_player) and player_is_dead {
+	player_is_dead = false;
 }
 if lifes_player <= 0 {
 	game_restart();
 }
-show_debug_message(lifes_player);

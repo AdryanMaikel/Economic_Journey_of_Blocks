@@ -29,6 +29,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sprs_player","folderPath":"folders/Sprites/sprs_player.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sprs_enemy","folderPath":"folders/Sprites/sprs_enemy.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"objs_collectable","folderPath":"folders/Objetos/objs_game/objs_collectable.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,

@@ -15,6 +15,7 @@
     {"name":"Sons","order":13,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":3,"path":"folders/Sprites.yy",},
     {"name":"sprs_enemy","order":1,"path":"folders/Sprites/sprs_enemy.yy",},
+    {"name":"objs_collectable","order":4,"path":"folders/Objetos/objs_game/objs_collectable.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_thorn","order":3,"path":"sprites/spr_thorn/spr_thorn.yy",},
@@ -23,6 +24,5 @@
     {"name":"spr_collisor","order":2,"path":"sprites/spr_collisor/spr_collisor.yy",},
     {"name":"obj_thorn","order":3,"path":"objects/obj_thorn/obj_thorn.yy",},
     {"name":"obj_collisor","order":2,"path":"objects/obj_collisor/obj_collisor.yy",},
-    {"name":"obj_coin","order":1,"path":"objects/obj_coin/obj_coin.yy",},
   ],
 }

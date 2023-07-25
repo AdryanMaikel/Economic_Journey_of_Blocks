@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "objs_game",
-    "path": "folders/Objetos/objs_game.yy",
+    "name": "objs_collectable",
+    "path": "folders/Objetos/objs_game/objs_collectable.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,7 +26,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_coin",
     "path": "sprites/spr_coin/spr_coin.yy",

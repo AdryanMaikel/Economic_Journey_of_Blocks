@@ -1,4 +1,11 @@
 /// @description 
+
+var _down = keyboard_check(ord("S"));
+if _down {
+	//image_xscale = 2;
+	image_yscale = .5;
+} else image_yscale = 1;
+
 // Movimentação para direita e esquerda
 var _left = keyboard_check(ord("A")), _right = keyboard_check(ord("D"));
 if _left {
