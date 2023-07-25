@@ -1,7 +1,15 @@
 /// @description 
 // Movimentação para direita e esquerda
 var _left = keyboard_check(ord("A")), _right = keyboard_check(ord("D"));
-if _left hspeed = -_speed else if _right hspeed = _speed else hspeed = 0;
+if _left {
+	hspeed = -_speed;
+	image_xscale = -1;
+} else if _right {
+	hspeed = _speed 
+	image_xscale = 1;
+} else {
+	hspeed = 0;
+}
 
 // Pulos
 var _space = keyboard_check_pressed(vk_space);

@@ -1,8 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_collisor",
-  "eventList": [],
+  "name": "obj_coin",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -24,10 +26,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "spr_collisor",
-    "path": "sprites/spr_collisor/spr_collisor.yy",
+    "name": "spr_coin",
+    "path": "sprites/spr_coin/spr_coin.yy",
   },
   "spriteMaskId": null,
   "visible": true,

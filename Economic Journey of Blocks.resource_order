@@ -1,0 +1,28 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Anotações","order":4,"path":"folders/Anotações.yy",},
+    {"name":"Caminhos","order":5,"path":"folders/Caminhos.yy",},
+    {"name":"Conjuntos de tiles","order":6,"path":"folders/Conjuntos de tiles.yy",},
+    {"name":"Curvas da animação","order":7,"path":"folders/Curvas da animação.yy",},
+    {"name":"Extensões","order":8,"path":"folders/Extensões.yy",},
+    {"name":"Fontes","order":9,"path":"folders/Fontes.yy",},
+    {"name":"Linhas do tempo","order":10,"path":"folders/Linhas do tempo.yy",},
+    {"name":"Objetos","order":2,"path":"folders/Objetos.yy",},
+    {"name":"objs_player","order":1,"path":"folders/Objetos/objs_player.yy",},
+    {"name":"Scripts","order":1,"path":"folders/Scripts.yy",},
+    {"name":"Sequências","order":11,"path":"folders/Sequências.yy",},
+    {"name":"Shaders","order":12,"path":"folders/Shaders.yy",},
+    {"name":"Sons","order":13,"path":"folders/Sons.yy",},
+    {"name":"Sprites","order":3,"path":"folders/Sprites.yy",},
+    {"name":"sprs_enemy","order":1,"path":"folders/Sprites/sprs_enemy.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"spr_thorn","order":3,"path":"sprites/spr_thorn/spr_thorn.yy",},
+    {"name":"spr_player_dead","order":1,"path":"sprites/spr_player_dead/spr_player_dead.yy",},
+    {"name":"obj_player_dead","order":1,"path":"objects/obj_player_dead/obj_player_dead.yy",},
+    {"name":"spr_collisor","order":2,"path":"sprites/spr_collisor/spr_collisor.yy",},
+    {"name":"obj_thorn","order":3,"path":"objects/obj_thorn/obj_thorn.yy",},
+    {"name":"obj_collisor","order":2,"path":"objects/obj_collisor/obj_collisor.yy",},
+    {"name":"obj_coin","order":1,"path":"objects/obj_coin/obj_coin.yy",},
+  ],
+}
