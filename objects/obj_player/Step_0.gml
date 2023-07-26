@@ -43,7 +43,9 @@ if sprite_index = spr_player_lowered {
 	}
 }
 // Fazendo o player se agaixar
-var _down = keyboard_check(ord("S"));
-if _down sprite_index = spr_player_lowered; else { if can_change_sprite sprite_index = spr_player;}
+if obj_controller.skill_lower or room == rm_initial {
+	var _down = keyboard_check(ord("S"));
+	if _down sprite_index = spr_player_lowered; else { if can_change_sprite sprite_index = spr_player;}
+}
 // Dizendo que não posso trocar a sprite
 can_change_sprite = false;

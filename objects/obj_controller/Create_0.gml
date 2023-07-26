@@ -11,3 +11,4 @@ winned_coins = 1;
 
 amount_jumps = 1;
 speed_jump = -6;
+skill_lower = false;

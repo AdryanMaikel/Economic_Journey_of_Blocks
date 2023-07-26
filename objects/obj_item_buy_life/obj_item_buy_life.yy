@@ -10,7 +10,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "objs_store",
-    "path": "folders/Objetos/objs_game/objs_store.yy",
+    "path": "folders/Objetos/objs_game/objs_hud/objs_store.yy",
   },
   "parentObjectId": {
     "name": "obj_button",

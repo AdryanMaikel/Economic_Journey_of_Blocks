@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "objs_game",
-    "path": "folders/Objetos/objs_game.yy",
+    "name": "objs_controllers",
+    "path": "folders/Objetos/objs_game/objs_controllers.yy",
   },
   "parentObjectId": null,
   "persistent": true,
