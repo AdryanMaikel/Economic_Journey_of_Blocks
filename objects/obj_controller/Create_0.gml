@@ -12,3 +12,7 @@ winned_coins = 1;
 amount_jumps = 1;
 speed_jump = -6;
 skill_lower = false;
+
+level1_complete = true;
+level2_complete = false;
+level3_complete = false;

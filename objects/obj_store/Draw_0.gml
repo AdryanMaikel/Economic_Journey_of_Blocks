@@ -7,7 +7,7 @@ draw_set_valign(fa_middle);
 draw_set_halign(fa_center);
 
 draw_set_color(#B75317);
-draw_text(_x-3, _y, "LOJA");
+draw_text(_x-3, _y+2, "LOJA");
 draw_set_color(#FADB6F);
 draw_text(_x, _y, "LOJA");
 
