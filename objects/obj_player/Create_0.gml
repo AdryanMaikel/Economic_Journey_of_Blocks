@@ -3,13 +3,15 @@
 _speed = 2;
 _gravity = .2;
 // Pulos
-speed_jump = -6;
-amount_jumps = 1;
-jumped = amount_jumps;
+speed_jump = obj_controller.speed_jump;
+jumped = obj_controller.amount_jumps;
+can_change_sprite = false;
 
 dead_player = function() {
-	var _spr_h = sprite_height/2;
-	repeat 100 instance_create_layer(x+irandom_range(-_spr_h, _spr_h), y+irandom_range(0, -sprite_height),"Instance_player", obj_player_dead);
+	var _spr_w = sprite_width/2;
+	repeat 100 instance_create_layer(x+irandom_range(-_spr_w, _spr_w), y+irandom_range(0, -sprite_height),"Instance_player", obj_player_dead);
 	obj_controller.lifes_player--;
 	instance_destroy();
 }
+
+power_up = false;

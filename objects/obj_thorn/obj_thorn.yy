@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "objs_game",
-    "path": "folders/Objetos/objs_game.yy",
+    "name": "objs_scenario",
+    "path": "folders/Objetos/objs_game/objs_scenario.yy",
   },
   "parentObjectId": null,
   "persistent": false,
