@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "sprs_enemy",
-    "path": "folders/Sprites/sprs_enemy.yy",
+    "name": "sprs_collectable",
+    "path": "folders/Sprites/sprs_collectable.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -48,7 +48,7 @@
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
     "showBackdrop": true,
     "showBackdropImage": false,

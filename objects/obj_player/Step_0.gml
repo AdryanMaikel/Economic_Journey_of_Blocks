@@ -37,7 +37,11 @@ if place_meeting(x + hspeed, y, obj_collisor) {
 	hspeed = 0;
 }
 #endregion
-
+if sprite_index = spr_player_lowered {
+	if place_meeting(x,y-sprite_height/2,obj_collisor) {
+		can_change_sprite = false;
+	}
+}
 // Fazendo o player se agaixar
 var _down = keyboard_check(ord("S"));
 if _down sprite_index = spr_player_lowered; else { if can_change_sprite sprite_index = spr_player;}

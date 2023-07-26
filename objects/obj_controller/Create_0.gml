@@ -7,7 +7,7 @@ xx = obj_player.xstart;
 yy = obj_player.ystart;
 
 amount_coins = 0;
-winned_coins = 2;
+winned_coins = 1;
 
 amount_jumps = 1;
 speed_jump = -6;
