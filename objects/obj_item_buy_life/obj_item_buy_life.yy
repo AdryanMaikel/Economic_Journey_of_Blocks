@@ -1,18 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_button_jogar",
+  "name": "obj_item_buy_life",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "objs_hud",
-    "path": "folders/Objetos/objs_game/objs_hud.yy",
+    "name": "objs_store",
+    "path": "folders/Objetos/objs_game/objs_store.yy",
   },
   "parentObjectId": {
     "name": "obj_button",
@@ -34,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_button",
-    "path": "sprites/spr_button/spr_button.yy",
+    "name": "spr_button_store",
+    "path": "sprites/spr_button_store/spr_button_store.yy",
   },
   "spriteMaskId": null,
   "visible": true,
