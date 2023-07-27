@@ -15,7 +15,6 @@ if lifes_player <= 0 {
 	amount_coins = 0;
 	amount_jumps = 1;
 	winned_coins = 1;
-	skill_lower = false;
 	
 	level1_complete = false;
 	level2_complete = false;

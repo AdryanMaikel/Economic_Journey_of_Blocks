@@ -1,3 +1,4 @@
 /// @description 
 // 
-if obj_controller.level2_complete image_index = 2;
+if not obj_controller.level2_complete exit;
+image_index = 2;
