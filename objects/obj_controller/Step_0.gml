@@ -23,3 +23,4 @@ if lifes_player <= 0 {
 }
 
 if skill_lower first_entering_rm_main = false;
+if not audio_is_playing(snd_background) audio_play_sound(snd_background, 1, true);
