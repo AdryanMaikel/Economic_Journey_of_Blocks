@@ -31,11 +31,15 @@ if pressed_a_or_d and not pressed_w _instructions = "Aperte 'W' para pular.";
 if keyboard_check(ord("W")) pressed_w = true;
 if pressed_a_or_d and pressed_w and not pressed_s _instructions = "Aperte 'S' para se abaixar.";
 if keyboard_check(ord("S")) pressed_s = true;
-if pressed_a_or_d and pressed_w and pressed_s _instructions = "Termine de coletar as moedas...";
+if pressed_a_or_d and pressed_w and pressed_s _instructions = "Termine de coletar as moedas..."; 
 
 if obj_controller.amount_coins >= 10 {
+	_instructions = "Ande até o portal...";
+}
+
+if obj_controller.complete_tutorial {
 	_instructions = "Tutorial completo! Parabéns!!\n";
-	_instructions+= "Clique em jogar e boa sorte... ";
+	_instructions+= "Clique em jogar e boa sorte... ";	
 }
 draw_text(_x, _y, _instructions);
 #endregion

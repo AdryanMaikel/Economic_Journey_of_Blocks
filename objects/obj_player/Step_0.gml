@@ -1,4 +1,5 @@
 /// @description 
+if room == rm_main and not obj_controller.play_fase1 exit;
 // Movimentação para direita e esquerda
 var _left = keyboard_check(ord("A")), _right = keyboard_check(ord("D"));
 if _left {

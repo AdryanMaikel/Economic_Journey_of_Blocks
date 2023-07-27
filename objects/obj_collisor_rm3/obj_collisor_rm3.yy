@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "objs_controllers",
-    "path": "folders/Objetos/objs_game/objs_controllers.yy",
+    "name": "objs_scenario",
+    "path": "folders/Objetos/objs_game/objs_scenario.yy",
   },
   "parentObjectId": null,
   "persistent": false,
