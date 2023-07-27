@@ -13,6 +13,8 @@ amount_jumps = 1;
 speed_jump = -6;
 skill_lower = false;
 
-level1_complete = true;
+level1_complete = false;
 level2_complete = false;
 level3_complete = false;
+
+first_entering_rm_main = true;
