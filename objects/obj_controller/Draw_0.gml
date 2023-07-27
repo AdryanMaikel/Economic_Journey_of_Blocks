@@ -11,8 +11,8 @@ _x += 100;
 draw_text(_x, _y, "Pulos: "+string(amount_jumps));
 
 if not skill_lower and first_entering_rm_main {
-	var _text = "Você perdeu a habilidade de poder se agaixar...";
-	_x = 205; _y = 370; 
+	var _text = "Você perdeu a habilidade de poder se abaixar...";
+	_x = 205; _y = 400; 
 	draw_set_font(fnt_cooper_bits);
 	draw_set_valign(fa_middle);
 	draw_set_halign(fa_left);
@@ -21,8 +21,8 @@ if not skill_lower and first_entering_rm_main {
 	draw_set_color(#FADB6F);
 	draw_text(_x, _y, _text);
 	
-	var _two_text = "Compre novamente na loja com suas moedas do tutorial       ->";
-	_x = 85; _y += 55;
+	var _two_text = "Compre novamente na loja...       ->";
+	_x = 479; _y = 428;
 	draw_set_color(#B75317);
 	draw_text(_x-2, _y+1, _two_text);
 	draw_set_color(#FADB6F);
