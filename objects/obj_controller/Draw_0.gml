@@ -10,23 +10,23 @@ draw_text(_x, _y," x "+string(amount_coins));
 _x += 100;
 draw_text(_x, _y, "Pulos: "+string(amount_jumps));
 
-if not skill_lower and first_entering_rm_main {
+if not skill_lower and first_entering_rm_main and room == rm_main {
 	var _text = "Você perdeu a habilidade de poder se abaixar...";
-	_x = 205; _y = 400; 
+	var _xx = 205, _yy = 400; 
 	draw_set_font(fnt_cooper_bits);
 	draw_set_valign(fa_middle);
 	draw_set_halign(fa_left);
 	draw_set_color(#B75317);
-	draw_text(_x-2, _y+1, _text);
+	draw_text(_xx-2, _yy+1, _text);
 	draw_set_color(#FADB6F);
-	draw_text(_x, _y, _text);
+	draw_text(_xx, _yy, _text);
 	
 	var _two_text = "Compre novamente na loja...       ->";
-	_x = 479; _y = 428;
+	_xx = 479; _yy = 428;
 	draw_set_color(#B75317);
-	draw_text(_x-2, _y+1, _two_text);
+	draw_text(_xx-2, _yy+1, _two_text);
 	draw_set_color(#FADB6F);
-	draw_text(_x, _y, _two_text);
+	draw_text(_xx, _yy, _two_text);
 	
 }
 draw_set_valign(-1);

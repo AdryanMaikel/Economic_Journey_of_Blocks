@@ -37,15 +37,15 @@ if place_meeting(x + hspeed, y, obj_collisor) {
 	hspeed = 0;
 }
 #endregion
-if sprite_index = spr_player_lowered {
-	if place_meeting(x,y-sprite_height/2,obj_collisor) {
+if sprite_index == spr_player_lowered {
+	if place_meeting(x,y-sprite_height,obj_collisor) {
 		can_change_sprite = false;
 	}
 }
 // Fazendo o player se agaixar
 if obj_controller.skill_lower or room == rm_initial {
 	var _down = keyboard_check(ord("S"));
-	if _down sprite_index = spr_player_lowered; else { if can_change_sprite sprite_index = spr_player;}
+	if _down sprite_index = spr_player_lowered; else if can_change_sprite sprite_index = spr_player;
 }
-// Dizendo que não posso trocar a sprite
+// Dizendo que não posso trocar a sprites
 can_change_sprite = false;

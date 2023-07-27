@@ -1,5 +1,5 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+/// @description 
+// 
 var _x = room_width/2, _y = 160, _text = "Colete todas as       para completar o tutorial";
 draw_set_font(fnt_cooper_bits);
 draw_set_halign(fa_center);
@@ -12,7 +12,7 @@ draw_text(_x-20, _y, _text);
 draw_sprite(spr_coin, image_index, _x-120, _y-16);
 
 //Criado por mim <3
-_y = 750;
+_y = 640;
 var _created_by = "Criado por Adryan Maikel <3 Obrigado por jogar!";
 draw_set_color(#B75317);
 draw_text(_x-3, _y+2, _created_by);

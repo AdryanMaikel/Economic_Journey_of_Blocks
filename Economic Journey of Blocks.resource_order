@@ -37,6 +37,7 @@
     {"name":"spr_button_store","order":1,"path":"sprites/spr_button_store/spr_button_store.yy",},
     {"name":"obj_button_level3","order":3,"path":"objects/obj_button_level3/obj_button_level3.yy",},
     {"name":"obj_thorn","order":1,"path":"objects/obj_thorn/obj_thorn.yy",},
+    {"name":"rm_level2","order":3,"path":"rooms/rm_level2/rm_level2.yy",},
     {"name":"obj_buy_skill_lower","order":3,"path":"objects/obj_buy_skill_lower/obj_buy_skill_lower.yy",},
     {"name":"spr_player_lowered","order":2,"path":"sprites/spr_player_lowered/spr_player_lowered.yy",},
     {"name":"rm_level1","order":2,"path":"rooms/rm_level1/rm_level1.yy",},
