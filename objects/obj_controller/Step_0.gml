@@ -26,7 +26,7 @@ if lifes_player <= 0 {
 	level1_complete = false;
 	level2_complete = false;
 	level3_complete = false;
-	
+	level4_complete = false;
 }
 
 if skill_lower first_entering_rm_main = false;

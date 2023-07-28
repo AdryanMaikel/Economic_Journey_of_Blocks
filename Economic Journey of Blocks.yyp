@@ -59,6 +59,7 @@
     {"id":{"name":"fnt_cooper_bits","path":"fonts/fnt_cooper_bits/fnt_cooper_bits.yy",},},
     {"id":{"name":"obj_item_buy_life","path":"objects/obj_item_buy_life/obj_item_buy_life.yy",},},
     {"id":{"name":"obj_collisor_rm3","path":"objects/obj_collisor_rm3/obj_collisor_rm3.yy",},},
+    {"id":{"name":"obj_button_level4","path":"objects/obj_button_level4/obj_button_level4.yy",},},
     {"id":{"name":"obj_button_jogar","path":"objects/obj_button_jogar/obj_button_jogar.yy",},},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"id":{"name":"rm_level3","path":"rooms/rm_level3/rm_level3.yy",},},
@@ -80,6 +81,7 @@
     {"id":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"snd_background","path":"sounds/snd_background/snd_background.yy",},},
+    {"id":{"name":"rm_level4","path":"rooms/rm_level4/rm_level4.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_buy_skill_lower","path":"objects/obj_buy_skill_lower/obj_buy_skill_lower.yy",},},
@@ -93,6 +95,7 @@
     {"roomId":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
     {"roomId":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},},
     {"roomId":{"name":"rm_level3","path":"rooms/rm_level3/rm_level3.yy",},},
+    {"roomId":{"name":"rm_level4","path":"rooms/rm_level4/rm_level4.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

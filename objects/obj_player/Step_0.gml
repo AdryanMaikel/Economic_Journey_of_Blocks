@@ -37,6 +37,19 @@ if place_meeting(x + hspeed, y, obj_collisor) {
 	}
 	hspeed = 0;
 }
+if instance_exists(obj_collisor_rm3){
+	if place_meeting(x, y + vspeed, obj_collisor_rm3) {
+		if vspeed > 0 jumped = obj_controller.amount_jumps;
+		can_change_sprite = true;
+		vspeed = obj_collisor_rm3.vspeed;
+	}
+	if place_meeting(x + hspeed, y, obj_collisor_rm3) {
+		while not place_meeting(x + sign(hspeed), y, obj_collisor_rm3) {
+			x += sign(hspeed)	
+		}
+		hspeed = 0;
+	}
+}
 #endregion
 if sprite_index == spr_player_lowered {
 	if place_meeting(x,y-sprite_height,obj_collisor) {

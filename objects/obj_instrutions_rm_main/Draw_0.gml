@@ -9,7 +9,7 @@ if room == rm_main {
 		draw_rectangle_colour(64,64,600,room_height-64, c_black, c_black, c_black, c_black, 0);
 		draw_rectangle_colour(836,64,room_width-64,room_height-64, c_black, c_black, c_black, c_black, 0);
 		//Mexer abaixo caso tenha mais leveis
-		var _y = 318;
+		var _y = 370;
 		draw_rectangle_colour(601,_y,817+18,room_height-64, c_black, c_black, c_black, c_black, 0);
 	}
 	draw_set_valign(fa_middle);
@@ -34,7 +34,7 @@ if room == rm_main {
 	}
 	
 	if obj_controller.buyed and not obj_controller.play_fase1 {
-		var _x = 100, _y = 133, _text = "Aqui você seleciona o level... ->\nBoa sorte...";
+		var _x = 135, _y = 170, _text = "Aqui você seleciona o level ...   ->\n             Boa sorte...";
 		draw_set_color(#B75317);
 		draw_text(_x-2, _y+1, _text);
 		draw_set_color(#FADB6F);

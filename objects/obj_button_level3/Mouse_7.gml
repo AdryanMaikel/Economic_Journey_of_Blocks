@@ -1,5 +1,5 @@
 /// @description 
-// Jogar level 1 somente se o level não tiver sido completado
+// Jogar level 3 somente se o level não tiver sido completado
 if not obj_controller.level3_complete {
 	//room_goto(rm_level3);
 	if not instance_exists(obj_transition) {

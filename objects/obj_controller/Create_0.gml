@@ -18,6 +18,7 @@ skill_lower = false;
 level1_complete = false;
 level2_complete = false;
 level3_complete = false;
+level4_complete = false;
 
 first_entering_rm_main = true;
 
