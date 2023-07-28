@@ -28,3 +28,11 @@ if not obj_controller.level3_complete and room == rm_level3 and _collision_with_
 		instance_create_layer(0, 0, "Instance_transition", obj_transition);
 	}
 }
+if not obj_controller.level4_complete and room == rm_level4 and _collision_with_player {
+	//room_goto(rm_main);
+	obj_controller.level4_complete = true;
+	if not instance_exists(obj_transition) {
+		global.destiny = rm_main;
+		instance_create_layer(0, 0, "Instance_transition", obj_transition);
+	}
+}
