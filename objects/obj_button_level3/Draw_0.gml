@@ -6,7 +6,7 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
 var _text;
-if obj_controller.level3_complete == true _text = "Completo!"; else _text = "Level 3";
+if obj_controller.level3_complete _text = "Completo!"; else _text = "Level 3";
 
 draw_set_color(#B75317);
 draw_text(x-3, y+2, _text);

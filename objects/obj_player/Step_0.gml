@@ -37,7 +37,8 @@ if place_meeting(x + hspeed, y, obj_collisor) {
 	}
 	hspeed = 0;
 }
-if instance_exists(obj_collisor_rm3){
+// Objetos moveis da room 3
+if instance_exists(obj_collisor_rm3) {
 	if place_meeting(x, y + vspeed, obj_collisor_rm3) {
 		if vspeed > 0 jumped = obj_controller.amount_jumps;
 		can_change_sprite = true;
@@ -48,6 +49,22 @@ if instance_exists(obj_collisor_rm3){
 			x += sign(hspeed)	
 		}
 		hspeed = 0;
+	}
+}
+// Segunda instancia movel do level 4
+if instance_exists(inst_28D9A538) {
+	if place_meeting(x, y + vspeed+1, inst_28D9A538) {
+		if vspeed > 0 jumped = obj_controller.amount_jumps;
+		can_change_sprite = true;
+		vspeed = inst_28D9A538.vspeed;
+	}
+}
+// Terceira instancia movel do level 4
+if instance_exists(inst_2A55E91) {
+	if place_meeting(x, y + vspeed+1, inst_2A55E91) {
+		if vspeed > 0 jumped = obj_controller.amount_jumps;
+		can_change_sprite = true;
+		vspeed = inst_2A55E91.vspeed;
 	}
 }
 #endregion
