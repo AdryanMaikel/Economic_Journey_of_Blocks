@@ -1,4 +1,4 @@
-/// @description Inserir descrição aqui
+/// @description 
 // 
 pressed_a_or_d = false;
 pressed_w = false;

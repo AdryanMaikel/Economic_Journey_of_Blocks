@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "objs_rm_initial",
-    "path": "folders/Objetos/objs_game/objs_hud/objs_rm_initial.yy",
+    "name": "objs_buttons_levels",
+    "path": "folders/Objetos/objs_game/objs_buttons/objs_buttons_levels.yy",
   },
   "parentObjectId": {
     "name": "obj_button",

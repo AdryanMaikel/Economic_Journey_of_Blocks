@@ -12,6 +12,7 @@ if instance_exists(obj_player) and player_is_dead {
 if lifes_player <= 0 {
 	//game_restart();
 	if room == rm_main room_restart(); else room_goto(rm_main);
+	game_over = true;
 	lifes_player = 3;
 	amount_coins = 0;
 	amount_jumps = 1;

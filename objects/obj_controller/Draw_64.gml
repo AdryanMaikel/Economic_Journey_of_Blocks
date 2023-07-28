@@ -21,12 +21,12 @@ if not skill_lower and first_entering_rm_main and room == rm_main {
 	
 }
 if buyed and not play_fase1 {
-		var _x = 100, _y = 133, _text = "Aqui você seleciona o level... ->\nBoa sorte...";
-		draw_set_color(#B75317);
-		draw_text(_x-2, _y+1, _text);
-		draw_set_color(#FADB6F);
-		draw_text(_x, _y, _text);
-	}
+	var _x = 100, _y = 133, _text = "Aqui você seleciona o level... ->\nBoa sorte...";
+	draw_set_color(#B75317);
+	draw_text(_x-2, _y+1, _text);
+	draw_set_color(#FADB6F);
+	draw_text(_x, _y, _text);
+}
 draw_set_valign(-1);
 draw_set_halign(-1);
 

@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "objs_store",
-    "path": "folders/Objetos/objs_game/objs_hud/objs_store.yy",
+    "name": "objs_buttons_store",
+    "path": "folders/Objetos/objs_game/objs_buttons/objs_buttons_store.yy",
   },
   "parentObjectId": {
     "name": "obj_button",

@@ -23,3 +23,5 @@ first_entering_rm_main = true;
 
 buyed = false;
 play_fase1 = false;
+
+game_over = false;

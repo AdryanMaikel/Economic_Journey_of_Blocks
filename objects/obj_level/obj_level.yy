@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "objs_levels",
-    "path": "folders/Objetos/objs_game/objs_hud/objs_levels.yy",
+    "name": "objs_buttons_levels",
+    "path": "folders/Objetos/objs_game/objs_buttons/objs_buttons_levels.yy",
   },
   "parentObjectId": null,
   "persistent": false,

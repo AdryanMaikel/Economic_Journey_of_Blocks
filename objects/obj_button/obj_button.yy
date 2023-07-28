@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "objs_hud",
-    "path": "folders/Objetos/objs_game/objs_hud.yy",
+    "name": "objs_buttons",
+    "path": "folders/Objetos/objs_game/objs_buttons.yy",
   },
   "parentObjectId": null,
   "persistent": false,
