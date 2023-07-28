@@ -1,7 +1,7 @@
 /// @description 
 // 
 if buyed exit;
-if obj_controller.amount_coins >= 10 {
+if obj_controller.amount_coins >= 0 {
 	buyed = true;
 	obj_controller.amount_coins-=10;
 	obj_controller.skill_lower = true;

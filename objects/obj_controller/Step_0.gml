@@ -11,7 +11,11 @@ if instance_exists(obj_player) and player_is_dead {
 }
 if lifes_player <= 0 {
 	//game_restart();
-	if room == rm_main room_restart(); else room_goto(rm_main);
+	//if room == rm_main room_restart(); else room_goto(rm_main);
+	if not instance_exists(obj_transition) {
+		global.destiny = rm_main;
+		instance_create_layer(0, 0, "Instance_transition", obj_transition);
+	}
 	game_over = true;
 	lifes_player = 3;
 	amount_coins = 0;
@@ -22,6 +26,7 @@ if lifes_player <= 0 {
 	level1_complete = false;
 	level2_complete = false;
 	level3_complete = false;
+	
 }
 
 if skill_lower first_entering_rm_main = false;
