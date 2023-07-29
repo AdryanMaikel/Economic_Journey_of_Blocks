@@ -88,6 +88,7 @@
     {"name":"inst_7F560843","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_15644CE9","path":"rooms/rm_main/rm_main.yy",},
     {"name":"inst_56B808C0","path":"rooms/rm_main/rm_main.yy",},
+    {"name":"inst_6350058E","path":"rooms/rm_main/rm_main.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -176,6 +177,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2A5EFB5A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_level2","path":"objects/obj_button_level2/obj_button_level2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":718.0,"y":220.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_70A6A310","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_level3","path":"objects/obj_button_level3/obj_button_level3.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":718.0,"y":282.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_56B808C0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_level4","path":"objects/obj_button_level4/obj_button_level4.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":718.0,"y":344.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6350058E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button_level5","path":"objects/obj_button_level5/obj_button_level5.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":718.0,"y":406.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

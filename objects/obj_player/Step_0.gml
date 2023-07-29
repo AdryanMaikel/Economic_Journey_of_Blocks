@@ -1,5 +1,5 @@
 /// @description 
-if room == rm_main and not obj_controller.play_fase1 exit;
+if room == rm_main and not obj_controller.play_fase exit;
 // Movimentação para direita e esquerda
 var _left = keyboard_check(ord("A")), _right = keyboard_check(ord("D"));
 if _left {
@@ -13,7 +13,7 @@ if _left {
 }
 
 // Pulos
-var _space = keyboard_check_pressed(ord("W"));
+var _space = keyboard_check_pressed(vk_space) or keyboard_check(ord("W"));
 if _space and jumped > 0 {
 	vspeed = speed_jump;
 	jumped--;
@@ -65,6 +65,23 @@ if instance_exists(inst_2A55E91) {
 		if vspeed > 0 jumped = obj_controller.amount_jumps;
 		can_change_sprite = true;
 		vspeed = inst_2A55E91.vspeed;
+	}
+}
+// Intancia do rm 5
+if room == rm_level5 {
+	if instance_exists(inst_117520E5) {
+		if place_meeting(x, y + vspeed+.5, inst_117520E5) {
+			if vspeed > 0 jumped = obj_controller.amount_jumps;
+			can_change_sprite = true;
+			vspeed = inst_117520E5.vspeed;
+		}
+	}
+	if instance_exists(inst_2405FA79) {
+		if place_meeting(x, y + vspeed+.5, inst_2405FA79) {
+			if vspeed > 0 jumped = obj_controller.amount_jumps;
+			can_change_sprite = true;
+			vspeed = inst_2405FA79.vspeed;
+		}
 	}
 }
 #endregion

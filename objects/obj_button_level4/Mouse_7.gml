@@ -1,6 +1,7 @@
 /// @description 
 // Jogar level 4 somente se o level não tiver sido completado
 if not obj_controller.level4_complete {
+	obj_controller.play_fase = true;
 	//room_goto(rm_level4);
 	if not instance_exists(obj_transition) {
 		global.destiny = rm_level4;

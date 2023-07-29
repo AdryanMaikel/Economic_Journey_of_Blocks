@@ -7,3 +7,6 @@ if mobile_rm4 {
 if mobile_rm4_up_down {
 	vspeed = inst_2CC3A85A.vspeed;
 }
+if mobile_rm5 {
+	inst_4508BBE6.vspeed = inst_77D982DB.vspeed;
+}

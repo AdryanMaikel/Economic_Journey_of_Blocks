@@ -27,14 +27,14 @@ draw_set_halign(fa_left);
 
 if not pressed_a_or_d _instructions = "Aperte 'A' e 'D' para andar para esquerda e direita.";
 if keyboard_check_pressed(ord("A")) or keyboard_check_pressed(ord("D"))	pressed_a_or_d = true;
-if pressed_a_or_d and not pressed_w _instructions = "Aperte 'W' para pular.";
-if keyboard_check(ord("W")) pressed_w = true;
-if pressed_a_or_d and pressed_w and not pressed_s _instructions = "Aperte 'S' para se abaixar.";
+if pressed_a_or_d and not pressed_space _instructions = "Aperte 'Espaço' para pular.";
+if keyboard_check(vk_space) pressed_space = true;
+if pressed_a_or_d and pressed_space and not pressed_s _instructions = "Aperte 'S' para se abaixar.";
 if keyboard_check(ord("S")) pressed_s = true;
-if pressed_a_or_d and pressed_w and pressed_s _instructions = "Termine de coletar as moedas..."; 
+if pressed_a_or_d and pressed_space and pressed_s _instructions = "Termine de coletar as moedas..."; 
 
 if obj_controller.amount_coins >= 10 {
-	_instructions = "Ande até o portal...";
+	_instructions = "Entre no portal... ->";
 }
 
 if obj_controller.complete_tutorial {

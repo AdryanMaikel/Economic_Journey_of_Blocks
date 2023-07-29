@@ -19,10 +19,11 @@ level1_complete = false;
 level2_complete = false;
 level3_complete = false;
 level4_complete = false;
+level5_complete = false;
 
 first_entering_rm_main = true;
 
 buyed = false;
-play_fase1 = false;
+play_fase = false;
 
 game_over = false;
